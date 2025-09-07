@@ -1,10 +1,19 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Manager from './components/Manager'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div>
-      my ui
+    <>
+    <Navbar/>
+    <div className=" min-h-[78vh]">
+
+    <Manager/>
     </div>
+
+    <Footer/>
+    </>
   )
 }
 
